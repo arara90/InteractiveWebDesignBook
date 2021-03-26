@@ -1,0 +1,25 @@
+.wrap{
+    /* flex일때 min-width: 0;  */
+    width: 70px;
+    border: solid 1px red;
+}
+
+.wrap p{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+.wrap2{
+    width: 70px;
+    height: 150px;
+    border: solid 1px blue;
+}
+
+.wrap2 p{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
